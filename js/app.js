@@ -14,10 +14,8 @@ function sendResponse() {
 }
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
-  
-  console.log("loaded")
   event.preventDefault();
-
+  console.log("Loaded");
   sendResponse(); // call your function here
 });
 
